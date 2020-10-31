@@ -3,3 +3,22 @@
    height: 400px;
    width: auto;
 }
+.navbar {
+   list-style-type: none;
+}
+
+li {
+   display: inline;
+}
+
+.rightnav {
+   float: right;
+}
+
+.footerright {
+   float: right;
+}
+
+#searchbuttons, form {
+   text-align: center;
+}
