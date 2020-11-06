@@ -7,7 +7,6 @@ html {
 
 
 
-
 /* Top of page */
 
 .navbar {
@@ -55,6 +54,41 @@ img {
 
 #searchbuttons, form {
    text-align: center;
+   position: relative;
+   top: -130px;
+}
+
+input {
+   background-color: white;
+   display: flex;
+   border: 1px solid #dfe1e5;
+   border-radius: 24px;
+   margin: 0 auto;
+   height: 44px;
+   width: 500px;
+}
+
+#searchicon {
+   position: relative;
+   top: -37px;
+   left: -230px;
+}
+
+.button {
+   background-color: #f8f9fa;
+   border: 1px solid #f8f9fa;
+   border-radius: 4px;
+   color: #3c4043;
+   font-size: 14px;
+   font-size: 14px;
+   margin: 11px 4px;
+   padding: 0 16px;
+   line-height: 27px;
+   height: 36px;
+   min-width: 54px;
+   text-align: center;
+   position: relative;
+   top: -17px;
 }
 
 #logo {
@@ -71,9 +105,9 @@ img {
 
 footer {
    background-color: #f2f2f2;
-   border-bottom: 1px solid #dadce0;
    border-top: 1px solid #dadce0;
-   bottom: 0;
+   bottom: -15px;
+   padding-bottom: 0px;
    left: 0;
    right: 0;
    position: absolute;
@@ -83,7 +117,7 @@ footer {
    color:#70757a;
    list-style-type: none;
    font-size: 14px;
-   padding-left: 10px;
+   padding-left: 15px;
 }
 
 .footerright {
@@ -114,6 +148,7 @@ a {
 
 #bottomrow {
    position: relative;
+   bottom: 0;
    top: -10px;
    left: -30px;
 }
