@@ -37,7 +37,7 @@ img {
 
 #signinbutton {
    border: 1px solid #4285f4;
-   background-color: #4387fd;
+   background-color: #4387fd !important;
    font-weight: bold;
    color: white;
    border-radius: 2px;
